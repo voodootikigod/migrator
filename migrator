@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // this file is stored in a directory of APP_ROOT/script for me, all things are relative to that
-var APP_ROOT = process.cwd();   // __dirname + "/../";
+var APP_ROOT = process.cwd()+"/";   // __dirname + "/../";
 
 // this assumes there is a file stored in APP_ROOT called "config.js" with the following structure: 
 //
