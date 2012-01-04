@@ -1,12 +1,12 @@
 {
     "name" : "migrator",
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "description" : "Take your datas and migrate them",
     "author": "Chris Williams <voodootikigod@gmail.com>",
     "main": "./lib/migrator",
     "repository": {
         "type": "git",
-        "url": "git://github.com/voodootikigod/node-migrator.git"
+        "url": "git://github.com/voodootikigod/migrator.git"
     },
     "bin": {
       "migrator": "./migrator"
