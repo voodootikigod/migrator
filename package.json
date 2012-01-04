@@ -1,6 +1,6 @@
 {
     "name" : "migrator",
-    "version" : "0.0.6",
+    "version" : "0.0.7",
     "description" : "Take your datas and migrate them",
     "author": "Chris Williams <voodootikigod@gmail.com>",
     "main": "./lib/migrator",
