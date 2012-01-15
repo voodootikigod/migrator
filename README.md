@@ -16,14 +16,14 @@ migrator will process a directory of migrations, aptly named "./migrations", tha
 
 <pre>
 module.exports = {
-  "development: {
-    "postgresql": "tcp:postgres@localhost/dev-db"
+  "development": {
+    "mysql": {"user":"root", "password":"password"}
   },
-  "staging:" {
-    "postgresql": "tcp:postgres@localhost/stage-db"
+  "staging": {
+    "mysql": {"user":"stage-user", "password":"password"}
   },
-  "production:" {
-    "postgresql": "tcp:postgres@localhost/db"
+  "production" : {
+    "mysql": {"user":"db-user", "password":"password"}
   }
 }
 </pre>
