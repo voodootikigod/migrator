@@ -6,7 +6,7 @@
 I migrate your data.
 </pre>
 
-Have you ever been building an application and want to track your schema modifications in a meaningful and incremental fashion? Of course you have, we all have! I, for one, had an application that I ported from Rails to express.js and one of the big things I missed was the migrations. I haven't yet ported the "rollbacks", because I didn't use them. Also I didn't port over the abstraction layer because, well people should learn SQL especially when it comes to defining schema. 
+Have you ever been building an application and want to track your schema modifications in a meaningful and incremental fashion? Of course you have, we all have! I, for one, had an application that I ported from Rails to express.js and one of the big things I missed was the migrations. I haven't yet ported the "rollbacks", because I didn't use them. Also I didn't port over the abstraction layer because, well people should learn SQL especially when it comes to defining schema.
 
 So what does migrator do?
 =========================
@@ -30,7 +30,7 @@ module.exports = {
 
  * You define your current operating environment as the "NODE_ENV" environment variable.
 
-If those conventions are hip to you then just install migrator using 
+If those conventions are hip to you then just install migrator using
 
 <pre>
 sudo npm install -g migrator
@@ -68,7 +68,7 @@ OR
 migrator generate
 </pre>
 
-That will create a new file with the current timestamp as an integer with the extension `.sql` and open in the defined editor as described above OR the default environment variable EDITOR (run `echo $EDITOR` to find out what this is for your system). 
+That will create a new file with the current timestamp as an integer with the extension `.sql` and open in the defined editor as described above OR the default environment variable EDITOR (run `echo $EDITOR` to find out what this is for your system).
 
 If you want to migrate data, create a JS migration using
 
