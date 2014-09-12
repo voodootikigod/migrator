@@ -16,13 +16,13 @@ migrator will process a directory of migrations, aptly named "./migrations", tha
 
 <pre>
 module.exports = {
-  "development: {
+  "development": {
     "postgresql": "tcp:postgres@localhost/dev-db"
   },
-  "staging:" {
+  "staging": {
     "postgresql": "tcp:postgres@localhost/stage-db"
   },
-  "production:" {
+  "production": {
     "postgresql": "tcp:postgres@localhost/db"
   }
 }
@@ -53,7 +53,7 @@ For now the options hash just allows you to change the configured editor, it mus
 If you opt for the configuration route, it's generally good to wrap it in an executable script and use it in similar manner to how you use the convention-based migrator.
 
 
-How to I make migrations?
+How do I make migrations?
 =========================
 
 To create a migration, you can just use
